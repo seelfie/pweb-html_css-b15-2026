@@ -280,7 +280,6 @@ footer {
     letter-spacing: 0.5px;
 }
 
-/* ===== RESPONSIVE ===== */
 @media (max-width: 1300px) {
     #profil img {
         width: 400px;
