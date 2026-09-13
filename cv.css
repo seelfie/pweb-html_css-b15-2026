@@ -44,17 +44,19 @@ body {
     position: sticky;
     top: 0;
     z-index: 10;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #content-links a {
-    color: #E8EEF1;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     transition: color 0.2s ease;
     text-decoration: none;
 }
 
 #content-links a:hover {
-    color: #C9A227;
+    color: #4fc3a1;
 }
 
 #profil {
@@ -70,7 +72,7 @@ body {
 
 #profil h2 {
     font-size: 32px;
-    color: #B4C4CC;
+    color: #b9c7cc;
     margin-bottom: 16px;
 }
 
@@ -99,6 +101,7 @@ body {
 
 .profil-text p {
     font-size: 22px;
+    color: #b9c7cc;
 }
 
 #biodata {
@@ -109,7 +112,7 @@ body {
     gap: 48px;
     padding: 4rem 8%;
     background-color: #0a2a3a;
-    color: #B4C4CC;
+    color: #b8c5c9;
 }
 
 #biodata h2 {
@@ -117,14 +120,14 @@ body {
     width: 300px;
     font-size: 44px;
     font-weight: bold;
-    color: #FFFFFF;
+    color: white;
 }
 
 .biodata-text {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    border-left: 2px solid #C9A227;
+    border-left: 2px solid #4fc3a1;
     padding-left: 24px;
 }
 
@@ -145,7 +148,7 @@ body {
     width: 300px;
     font-size: 44px;
     font-weight: bold;
-    color: #FFFFFF;
+    color: white;
 }
 
 #education .timeline,
@@ -184,31 +187,31 @@ body {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background: #C9A227;
+    background: #4fc3a1;
 }
 
 .timeline-item .year {
     font-size: 14px;
-    color: #C9A227;
+    color: #4fc3a1;
     font-weight: bold;
 }
 
 .timeline-item .location {
     font-size: 14px;
-    color: #7C97A1;
+    color: #9fb0b6;
     margin-bottom: 8px;
 }
 
 .timeline-item .place {
     font-size: 14px;
-    color: #B4C4CC;
+    color: #b8c5c9;
     margin-bottom: 4px;
 }
 
 .timeline-item .description {
     font-size: 14px;
     line-height: 1.5;
-    color: #E8EEF1;
+    color: #9fb0b6;
     margin-bottom: 0;
 }
 
@@ -220,7 +223,7 @@ body {
     min-height: auto;
     padding: 4rem 8%;
     background-color: #0a2a3a;
-    color: #B4C4CC;
+    color: #b8c5c9;
 }
 
 #skills {
@@ -257,27 +260,51 @@ body {
     padding: 16px 32px;
     border-radius: 30px;
     background-color: #0d3547;
-    color: #E8EEF1;
+    color: #b9c7cc;
     font-size: 18px;
     transition: all 0.2s ease;
 }
 
 .skill-chip:hover {
-    background-color: #C9A227;
+    background-color: #4fc3a1;
     color: #071f2b;
     transform: translateY(-2px);
 }
 
 footer {
     width: 100%;
-    padding: 8px 8%;
+    padding: 70px 8% 60px;
     box-sizing: border-box;
-    background-color: #0a2a3a;
-    border-top: 1px solid rgba(255, 255, 255, 0.15);
-    color: #7C97A1;
+    background-color: #061b25;
+    border-top: 1px solid #183944;
+    color: #9fb0b6;
     text-align: center;
-    font-size: 11px;
+    font-size: 14px;
     letter-spacing: 0.5px;
+}
+
+footer h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+}
+
+footer h2 span {
+    color: #4fc3a1;
+}
+
+footer p {
+    margin-bottom: 20px;
+    color: #b9c7cc;
+    font-size: 16px;
+}
+
+footer .copyright {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #9fb0b6;
+    font-size: 14px;
 }
 
 @media (max-width: 1300px) {
